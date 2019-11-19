@@ -1,5 +1,9 @@
 // Import librairies
 import React from 'react'
+import { Switch, Route } from 'react-router-dom'
+
+// Import components & screens
+import Home from './screens/Home'
 
 // Import components & screens
 import Header from './components/Header'
@@ -12,6 +16,14 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <Header />
+
+        <Switch>
+
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          
+        </Switch>
       </div>
     )
   }
