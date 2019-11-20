@@ -1,4 +1,28 @@
 /* Header style */
+
 .Header {
-    font-family: 'The Amazing Spider-Man';
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
+
+.Header * {
+    font-family: 'The Amazing Spider-Man';
+    font-size: 200%;
+    text-decoration: none;
+    text-shadow: #ff0000 1px 1px, #ff0000 -1px 1px, #ff0000 -1px -1px, #ff0000 1px -1px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    transition-duration: 0.5s;
+    width: 50%;
+    height: auto;
+}
+
+.Header *:hover {
+    color: black;
+}
+

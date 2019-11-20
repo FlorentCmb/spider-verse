@@ -12,6 +12,7 @@ export default class Header extends React.Component {
         return(
             <div className="Header">
                 <Link to='/'>HOME</Link>
+                <Link to='/'>LIST</Link>
             </div>
         )
     }
