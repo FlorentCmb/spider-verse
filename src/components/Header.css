@@ -1,0 +1,10 @@
+/* Polices */
+@font-face {
+    font-family: 'The Amazing Spider-Man';
+    src: './The Amazing Spider-Man.ttf';
+}
+
+/* Header style */
+.Header {
+    font-family: 'The Amazing Spider-Man';
+}
