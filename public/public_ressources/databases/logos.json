@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "name": "logo-1",
+        "url": "./public_ressources/images/logo-1.png"
+    },
+    {
+        "id": "2",
+        "name": "logo-2",
+        "url": "./public_ressources/images/logo-2.png"
+    }
+]

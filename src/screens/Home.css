@@ -1,0 +1,38 @@
+.Home-Article {
+    padding: 2% 10%;
+    margin: 5% 0;
+    background: rgb(6, 6, 80);
+    color: white;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.Home-Article * {
+    transition-duration: 0.5s;
+}
+
+.Home-Title {
+    font-size: 150%;
+    font-family: 'The Amazing Spider-Man';
+    text-shadow: #ff0000 1px 1px, #ff0000 -1px 1px, #ff0000 -1px -1px, #ff0000 1px -1px;
+}
+
+.Home-Text {
+    font-size: 110%;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Hover styles */
+.Home-Article:hover {
+    background: rgb(121, 5, 5);
+}
+
+.Home-Article:hover .Home-Title {
+    color: blue;
+    text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+}

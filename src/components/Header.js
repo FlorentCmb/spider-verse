@@ -11,6 +11,7 @@ export default class Header extends React.Component {
 
         return(
             <div className="Header">
+                <img className="Logo" src={this.props.logos.length > 0 ? this.props.logos[1].url : ''} alt="Logo" />
                 <Link to='/'>HOME</Link>
                 <Link to='/'>LIST</Link>
             </div>
